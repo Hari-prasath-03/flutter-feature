@@ -1,0 +1,35 @@
+{
+  "name": "flutter-feature",
+  "version": "0.1.0",
+  "description": "A command line tool to generate flutter feature module boilerplate directory structure",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin" : {
+    "flutter-feature": "./dist/index.js",
+    "ff": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flutter",
+    "feature",
+    "module",
+    "boilerplate",
+    "cli",
+    "code-generator"
+  ],
+  "author": "Hari prasath",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "commander": "^15.0.0"
+  }
+}
