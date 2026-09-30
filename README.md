@@ -4,6 +4,8 @@ A CLI tool to generate the repetitive boilerplate of a Flutter feature.
 
 > Build the structure once. Generate it whenever you need it.
 
+![Flutter Clean Architecture](./assets/images/clean-architecture-flutter.png)
+
 ## Installation
 
 ```bash
@@ -38,6 +40,8 @@ This creates the feature under:
 lib/features/profile/
 ```
 
+![Cli demo](./assets/images/cli-demo.png)
+
 ## What gets generated?
 
 The current generator creates:
@@ -64,6 +68,8 @@ lib/
                 ├── profile_event.dart
                 └── profile_state.dart
 ```
+
+![Folder tree](./assets/images/generated-feature.png)
 
 The directory structure and generated files are intentionally separate. Some directories can exist even when they do not currently have a generated template.
 
@@ -205,3 +211,5 @@ dist/templates/
 ## License
 
 MIT
+
+---
