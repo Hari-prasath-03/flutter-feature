@@ -4,6 +4,11 @@
     "rootDir": "./src",
     "outDir": "./dist",
 
+    // Module Aliases
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
     // Environment Settings
     "module": "nodenext",
     "moduleResolution": "nodenext",
@@ -31,4 +36,8 @@
     "forceConsistentCasingInFileNames": true,
   },
   "include": ["src"],
+  "exclude": ["test"],
+  "tsc-alias": {
+    "resolveFullPaths": true
+  }
 }

@@ -1,0 +1,9 @@
+import 'package:{{appName}}/features/{{snakeName}}/data/models/{{snakeName}}_model.dart';
+
+abstract interface class {{pascalName}}RemoteDataSource {
+  
+}
+
+class {{pascalName}}RemoteDataSourceImpl implements {{pascalName}}RemoteDataSource {
+
+}

@@ -1,0 +1,5 @@
+import 'package:{{appName}}/features/{{snakeName}}/domain/entities/{{snakeName}}.dart';
+
+class {{pascalName}}Model extends {{pascalName}} {
+    const {{pascalName}}Model();
+}

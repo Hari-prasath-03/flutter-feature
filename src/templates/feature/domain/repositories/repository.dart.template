@@ -1,0 +1,5 @@
+import 'package:{{appName}}/features/{{snakeName}}/domain/entities/{{snakeName}}.dart';
+
+abstract interface class {{pascalName}}Repository {
+
+}

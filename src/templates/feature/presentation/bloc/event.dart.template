@@ -1,0 +1,6 @@
+part of '{{snakeName}}_bloc.dart';
+
+@immutable
+sealed class {{pascalName}}Event {
+  const {{pascalName}}Event();
+}

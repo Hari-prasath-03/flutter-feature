@@ -1,0 +1,13 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+
+part '{{snakeName}}_event.dart';
+part '{{snakeName}}_state.dart';
+
+class {{pascalName}}Bloc extends Bloc<{{pascalName}}Event, {{pascalName}}State> {
+  {{pascalName}}Bloc() : super({{pascalName}}Initial()) {
+    on<{{pascalName}}Event>((event, emit) {
+      // TODO: implement event handler
+    });
+  }
+}

@@ -1,0 +1,5 @@
+import 'package:{{appName}}/features/{{snakeName}}/domain/repositories/{{snakeName}}_repository.dart';
+
+class {{pascalName}}RepositoryImpl implements {{pascalName}}Repository {
+
+}

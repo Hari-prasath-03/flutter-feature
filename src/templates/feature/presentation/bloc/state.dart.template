@@ -1,0 +1,8 @@
+part of '{{snakeName}}_bloc.dart';
+
+@immutable
+sealed class {{pascalName}}State {
+  const {{pascalName}}State();
+}
+
+final class {{pascalName}}Initial extends {{pascalName}}State {}
